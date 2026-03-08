@@ -1,0 +1,7 @@
+com.example.helloandroid.app-pngs-0 D:\65130451-AndroidProgramming\65130451-AndroidProgramming\BaiTH1\app\build\generated\res\pngs\debug
+com.example.helloandroid.app-updated_navigation_xml-1 D:\65130451-AndroidProgramming\65130451-AndroidProgramming\BaiTH1\app\build\generated\updated_navigation_xml\debug
+com.example.helloandroid.app-packageDebugResources-2 D:\65130451-AndroidProgramming\65130451-AndroidProgramming\BaiTH1\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.helloandroid.app-packageDebugResources-3 D:\65130451-AndroidProgramming\65130451-AndroidProgramming\BaiTH1\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.helloandroid.app-debug-4 D:\65130451-AndroidProgramming\65130451-AndroidProgramming\BaiTH1\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.helloandroid.app-debug-5 D:\65130451-AndroidProgramming\65130451-AndroidProgramming\BaiTH1\app\src\debug\res
+com.example.helloandroid.app-main-6 D:\65130451-AndroidProgramming\65130451-AndroidProgramming\BaiTH1\app\src\main\res

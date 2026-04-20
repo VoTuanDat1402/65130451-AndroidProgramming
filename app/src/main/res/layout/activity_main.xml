@@ -1,19 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#F5F5F5">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Ứng Dụng Di Động"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#1A237E"
+        android:layout_marginBottom="8dp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Võ Thanh Đạt — 6513045.1"
+        android:textSize="14sp"
+        android:textColor="#757575"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Nút Chức năng 1 -->
+    <Button
+        android:id="@+id/btnChucNang1"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Chức năng 1: Tính Chu Vi và Diện Tích"
+        android:backgroundTint="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Nút Chức năng 2 -->
+    <Button
+        android:id="@+id/btnChucNang2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Chức năng 2: Danh Sách Tỉnh/Thành"
+        android:backgroundTint="#009688"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Nút Chức năng 3 -->
+    <Button
+        android:id="@+id/btnChucNang3"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Chức năng 3: Điểm Du Lịch Nha Trang"
+        android:backgroundTint="#E91E63"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Nút Chức năng 4 -->
+    <Button
+        android:id="@+id/btnChucNang4"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Chức năng 4: Thông Tin Cá Nhân"
+        android:backgroundTint="#FF5722"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

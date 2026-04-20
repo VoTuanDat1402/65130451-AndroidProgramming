@@ -1,4 +1,12 @@
 package thigk2.votuandat;
 
-public class ChucNang4Activity {
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class ChucNang4Activity extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_chucnang4);
+    }
 }

@@ -12,7 +12,6 @@
         android:orientation="horizontal"
         android:padding="12dp">
 
-        <!-- Ảnh địa điểm -->
         <ImageView
             android:id="@+id/imgDiaDiem"
             android:layout_width="80dp"
@@ -27,7 +26,6 @@
             android:layout_marginStart="12dp"
             android:gravity="center_vertical">
 
-            <!-- Tên địa điểm -->
             <TextView
                 android:id="@+id/tvTenDiaDiem"
                 android:layout_width="wrap_content"
@@ -38,7 +36,6 @@
                 android:textColor="#1A237E"
                 android:layout_marginBottom="4dp"/>
 
-            <!-- Địa chỉ -->
             <TextView
                 android:id="@+id/tvDiaChi"
                 android:layout_width="wrap_content"

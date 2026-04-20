@@ -70,7 +70,7 @@
                 android:id="@+id/tvChuVi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Chu vi: ---"
+                android:text="Chu vi: "
                 android:textSize="18sp"
                 android:textColor="#1A237E"
                 android:layout_marginBottom="8dp"/>
@@ -79,7 +79,7 @@
                 android:id="@+id/tvDienTich"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Diện tích: ---"
+                android:text="Diện tích "
                 android:textSize="18sp"
                 android:textColor="#E91E63"/>
 

@@ -10,8 +10,6 @@
         android:orientation="vertical"
         android:gravity="center"
         android:padding="24dp">
-
-        <!-- Ảnh sinh viên -->
         <ImageView
             android:id="@+id/imgSinhVien"
             android:layout_width="120dp"
@@ -19,8 +17,6 @@
             android:src="@mipmap/ic_launcher"
             android:scaleType="centerCrop"
             android:layout_marginBottom="16dp"/>
-
-        <!-- Họ và tên -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -35,8 +31,6 @@
             android:textStyle="bold"
             android:textColor="#1A237E"
             android:layout_marginBottom="16dp"/>
-
-        <!-- Mã số -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -51,7 +45,6 @@
             android:textColor="#333333"
             android:layout_marginBottom="16dp"/>
 
-        <!-- Lớp -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -66,7 +59,6 @@
             android:textColor="#333333"
             android:layout_marginBottom="16dp"/>
 
-        <!-- Sở thích -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -81,7 +73,6 @@
             android:textColor="#333333"
             android:layout_marginBottom="16dp"/>
 
-        <!-- Sở trường -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

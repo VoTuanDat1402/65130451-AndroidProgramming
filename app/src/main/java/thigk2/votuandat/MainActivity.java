@@ -7,24 +7,20 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    // Khai báo 4 nút bấm
     Button btnChucNang1, btnChucNang2, btnChucNang3, btnChucNang4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main); // gắn layout vào Activity
+        setContentView(R.layout.activity_main);
 
-        // Tìm các nút theo ID trong XML
         btnChucNang1 = findViewById(R.id.btnChucNang1);
         btnChucNang2 = findViewById(R.id.btnChucNang2);
         btnChucNang3 = findViewById(R.id.btnChucNang3);
         btnChucNang4 = findViewById(R.id.btnChucNang4);
-
-        // Khi nhấn nút → mở màn hình tương ứng bằng Intent
         btnChucNang1.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, ChucNang1Activity.class);
-            startActivity(intent); // chuyển màn hình
+            startActivity(intent);
         });
 
         btnChucNang2.setOnClickListener(v -> {

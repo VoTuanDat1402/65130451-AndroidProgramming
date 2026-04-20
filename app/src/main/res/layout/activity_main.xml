@@ -19,12 +19,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Võ Thanh Đạt — 6513045.1"
+        android:text="Võ Tuấn Đạt — 65130451"
         android:textSize="14sp"
         android:textColor="#757575"
         android:layout_marginBottom="40dp"/>
-
-    <!-- Nút Chức năng 1 -->
     <Button
         android:id="@+id/btnChucNang1"
         android:layout_width="match_parent"
@@ -34,7 +32,6 @@
         android:textColor="#FFFFFF"
         android:layout_marginBottom="16dp"/>
 
-    <!-- Nút Chức năng 2 -->
     <Button
         android:id="@+id/btnChucNang2"
         android:layout_width="match_parent"
@@ -44,7 +41,6 @@
         android:textColor="#FFFFFF"
         android:layout_marginBottom="16dp"/>
 
-    <!-- Nút Chức năng 3 -->
     <Button
         android:id="@+id/btnChucNang3"
         android:layout_width="match_parent"
@@ -54,7 +50,6 @@
         android:textColor="#FFFFFF"
         android:layout_marginBottom="16dp"/>
 
-    <!-- Nút Chức năng 4 -->
     <Button
         android:id="@+id/btnChucNang4"
         android:layout_width="match_parent"

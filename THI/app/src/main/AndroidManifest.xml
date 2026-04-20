@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="thigk2.vothanhdat">
+    package="thigk2.votuandat">
 
     <application
         android:allowBackup="true"

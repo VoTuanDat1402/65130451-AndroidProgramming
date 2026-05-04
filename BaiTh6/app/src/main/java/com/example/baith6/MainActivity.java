@@ -1,0 +1,40 @@
+package com.example.baith6;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+
+import androidx.activity.EdgeToEdge;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        EdgeToEdge.enable(this);
+        setContentView(R.layout.activity_main);
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            return insets;
+        });
+    }
+    public void XuLyCong(View view){
+        EditText editTextsoA = findViewById(R.id.edtA);
+        EditText editTextsoB = findViewById(R.id.edtB);
+        EditText editTextKQ = findViewById(R.id.edtKQ);
+
+        String strA = editTextsoA.getText().toString();
+        String strB = editTextsoB.getText().toString();
+
+        int soA = Integer.parseInt(strA);
+        int soB = Integer.parseInt(strB);
+        int Tong = soA + soB;
+        String strTong = String.valueOf(Tong);
+        editTextKQ.setText(strTong);
+    }
+}
